@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/jokertest.js",
+    "format": "prettier -w src/js/jokertest.js",
+    "patch": "npm version patch"
   },
   "keywords": [],
   "author": "",

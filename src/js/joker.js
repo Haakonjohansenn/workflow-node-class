@@ -1,3 +1,7 @@
 import joker from "give-me-a-joke";
 
-joker.getRandomJokeOfTheDay(console.log);
+export function dadJoke() {
+  return new Promise(function (resolve, reject) {
+    joker.getRandomDadJoke(resolve);
+  });
+}

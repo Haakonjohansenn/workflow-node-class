@@ -7,13 +7,15 @@
   "scripts": {
     "test": "node src/js/jokertest.js",
     "format": "prettier -w src/js/jokertest.js",
-    "patch": "npm version patch"
+    "patch": "npm version patch",
+    "lint": "eslint/**/*.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.3.1",
+    "eslint": "^8.52.0",
     "prettier": "^3.0.3"
   },
   "dependencies": {
